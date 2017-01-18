@@ -12,4 +12,10 @@
     <title>Settings</title>
     <access_arguments>administer CiviCRM</access_arguments>
   </item>
+  <item>
+    <path>civicrm/cdntaxreceipts/reprint</path>
+    <page_callback>CRM_Cdntaxreceipts_Form_Reprint</page_callback>
+    <title>Reprint tax receipts</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
 </menu>
